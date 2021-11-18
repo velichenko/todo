@@ -2,7 +2,7 @@
 function App() {
   return (
     <div className="App">
-          Learn React2
+          Learn React3
     </div>
   );
 }
