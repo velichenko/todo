@@ -1,10 +1,18 @@
+import React from "react";
 
-function App() {
+import AppHeader from "./components/app-header";
+import SearchPanel from "./components/search-panel";
+import TodoList from "./components/todo-list";
+
+const App = () => {
   return (
     <div className="App">
-          Learn React
+          <AppHeader />
+          <SearchPanel />
+          <TodoList />
     </div>
   );
-}
+
+};
 
 export default App;
